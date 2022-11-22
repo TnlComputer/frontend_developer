@@ -13,6 +13,7 @@ Crear una función con tres parámetros que sean números que se suman entre sí
 Llamar a la función en el main y darle valores.
 
 Segunda parte:
+<<<<<<< HEAD
 
 Crear una clase coche.
 
@@ -24,3 +25,15 @@ Crear un objeto miCoche en el main y añadirle una puerta.
 
 Mostrar el número de puertas que tiene el objeto.
 
+=======
+
+Crear una clase coche.
+
+Dentro de la clase coche, una variable numérica que almacene el número de puertas que tiene.
+
+Una función que incremente el número de puertas que tiene el coche.
+
+Crear un objeto miCoche en el main y añadirle una puerta.
+
+Mostrar el número de puertas que tiene el objeto.
+>>>>>>> 48d9c67dff56aa8a9d61ea2f4fa617bdebfed309
