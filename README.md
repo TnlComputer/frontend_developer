@@ -1,18 +1,25 @@
-## Getting Started
+# OpenBootCamp
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+## FrontEnd Developer
 
-## Folder Structure
 
-The workspace contains two folders by default, where:
+### Ejercicio Tema 3.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+#### Objetivo
+Primera parte:
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+Crear una función con tres parámetros que sean números que se suman entre sí.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+Llamar a la función en el main y darle valores.
 
-## Dependency Management
+Segunda parte:
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+Crear una clase coche.
+
+Dentro de la clase coche, una variable numérica que almacene el número de puertas que tiene.
+
+Una función que incremente el número de puertas que tiene el coche.
+
+Crear un objeto miCoche en el main y añadirle una puerta.
+
+Mostrar el número de puertas que tiene el objeto.
