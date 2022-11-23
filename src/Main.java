@@ -1,46 +1,50 @@
 
-/** Funciones **/
+/** Sentencia de control **/
 
 public class Main {
-
   public static void main(String[] args) {
-    /* Parte 1 */
-    int dato1 = 1;
-    int dato2 = 2;
-    int dato3 = 5;
+    int numero = 10;
+    if (numero > 0) {
+      System.out.println("Positivo");
+    } else if (numero < 0) {
+      System.out.println("Negativo");
+    } else {
+      System.out.println("El número es Cero");
+    }
 
-    int resultado = suma(dato1, dato2, dato3);
+    int recorro = 3;
+    while (recorro > 0) {
+      System.out.println(recorro);
+      recorro--;
+    }
 
-    System.out.println();
-    System.out.println("Parte 1");
-    System.out.println("La suma de los datos es: " + resultado);
+    do {
+      recorro++;
+      System.out.println(recorro);
+    } while (recorro < 1);
 
-    /* Parte 2 */
-    Coche miCoche = new Coche();
-    miCoche.agregoPuerta();
+    int puntoFor[] = { 10, 20, 30, 40, 50 };
+    for (int i = 0; i < puntoFor.length; i++) {
+      System.out.println(puntoFor[i]);
+    }
+    var estacion = "Verano";
 
-    System.out.println();
-    System.out.println("Parte 2");
-    System.out.println("Total de puertas " + miCoche.puertas);
-  }
-
-  /* Suma de la parte 1 */
-  public static int suma(int a, int b, int c) {
-    return a + b + c;
-  }
-}
-
-/* Clase y funcion del Auto - Parter 2 */
-class Coche {
-  public int puertas = 3;
-  public int carroceria = 1;
-  public int ruedas = 4;
-  public int asientos = 4;
-  public String marca = "Volkswagen";
-  public String colorAsientos = "Negro";
-
-  /* Parte 2 - agrego puerta */
-  public void agregoPuerta() {
-    this.puertas++;
+    switch (estacion) {
+      case "Verano":
+        System.out.println("Es Verano");
+        break;
+      case "Primavera":
+        System.out.println("Es Primavera");
+        break;
+      case "Otoño":
+        System.out.println("Es Otoño");
+        break;
+      case "Invierno":
+        System.out.println("Es Invierno");
+        break;
+      default:
+        System.out.println("No es una estación");
+        break;
+    }
   }
 }
