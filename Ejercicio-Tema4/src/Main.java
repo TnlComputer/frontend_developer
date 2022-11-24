@@ -1,7 +1,6 @@
-
 /** Sentencia de control **/
 
-public class Main4 {
+public class Main {
   public static void main(String[] args) {
     int numero = 10;
     if (numero > 0) {
